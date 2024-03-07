@@ -11,7 +11,7 @@
 
 body {
     background-color:var(--cor-de-fundo)
-    color: var(var(--branco);
+    color:var(--branco);
     font-family: 'Chakra Petch' , sans-serif;
 }
 
@@ -51,9 +51,15 @@ body {
             border-top: none;
 }
 
-.botoes { 
+.botoes:first-child{
+    border-radius: 40px 40px 0 0;
+
+}
+  
+.botoes{
     display: block;
 }
+
             
 @media screen and (min-width: 768px) {
     .botoes { 
