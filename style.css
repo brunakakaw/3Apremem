@@ -11,8 +11,8 @@
 
 body {
     background-color:var(--cor-de-fundo);
-    color:(--branco);
-    font-family: "Chakra Petch" , sans-serif;
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .conteudo-principal {
@@ -29,12 +29,10 @@ body {
     text-align: left;
     width: 100%;
     font-size: 32px;
-
 }
 
 .titulo-principal span {
         color: var(--verde);
-    
 }
 
 .botao{
@@ -46,12 +44,13 @@ body {
             font-size:18px;
             align-items: center;
             width: 100%;
+}
+
             border-bottom: 4px solid var(--botao-ativo);
             border-left: 2px solid var(--botao-ativo);
             border-right: 2px solid var(--botao-ativo);
             border-top: none;
 
-}
 .botoes{
     display:block;
 }
