@@ -53,11 +53,6 @@ body {
     display:block;
 }
 
-@media screen and (min-width) {
-    .botoes{
-      display:flex;
-    }
-}
 
 .botap:first-child{
     border-radius: 0 40px 0 0 0;
@@ -66,4 +61,11 @@ body {
 .botao:last-child{
     border-radius: 0 40px 0 0;
 }
+
+@media screen and (min-width) {
+    .botoes{
+      display:flex;
+    }
+}
+
 
