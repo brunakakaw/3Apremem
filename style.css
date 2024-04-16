@@ -2,12 +2,12 @@
 
 
 :root {
-    --cor-de-fundo:(hsl(240, 20%, 55%));
-    --verde: #6bf16b;
-    --branco: #fcfffff3;
-    --botao-ativo: (hsl(246, 33%, 38%));
-    --botao-inativo: rgba(#252563);
-    --texto-fundo: rgba(#424572);
+    --cor-de-fundo: #1E1E1E;
+    --verde: #6FFF57;
+    --branco: #FFFFFF;
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 
@@ -148,5 +148,4 @@ body {
         border-radius: 0 40px 0 0;
     }
 }
-
 
